@@ -1,57 +1,63 @@
-https://user-images.githubusercontent.com/102798814/185803808-cfc2fd12-aaae-454d-b25b-810481ffa4f5.mp4
+# My Node TypeScript Application
 
-# FitZy
+This is a Node.js application built with TypeScript. It serves as a template for creating scalable and maintainable web applications using Express.
 
-This application is a classic clothes sales app. People can buy somethings and write reviews about them. 
-They can add favorites if they like. they can track their active orders and view order history. 
-Admin can add, edit and remove new categories and products and  edit ads and banners on the homepage.
+## Table of Contents
 
-## Built with
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [React](https://reactjs.org/) - Javascript Library For UI
+## Installation
 
-- [Chakra UI](https://chakra-ui.com/) - UI Component Library
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   ```
 
-- [Javascript](https://www.javascript.com/) - Main Language
+2. Navigate to the project directory:
+   ```
+   cd my-node-ts-app
+   ```
 
-- [NodeJS](https://nodejs.org/en/) - Server Environment
+3. Install the dependencies:
+   ```
+   npm install
+   ```
 
-- [Expressjs](https://expressjs.com/) - NodeJS Framework For Server Processes
+## Usage
 
-- [MongoDB](https://www.mongodb.com/) - NOSQL Database
-
-- [Mongoose](https://mongoosejs.com/) - Database ORM
-
-- [Formik](https://formik.org/) - React Form Library
-
-- [Yup](https://www.npmjs.com/package/yup) - For Validations
-
-- [React Cookie](https://www.npmjs.com/package/react-cookie) - For Cookies
-
-- [Bcryptjs](https://www.npmjs.com/package/bcryptjs) - For Encryption
-
-- [MUI Icons](https://mui.com/material-ui/material-icons/) - Icons
-
-- [Cloudinary](https://cloudinary.com/) - Cloud Image Storage
-
-- [Stripe](https://stripe.com/) - Payment System
-
-## Getting Started
-
-Clone the repository
-
-```
-git clone https://github.com/AhmedSemih/MERN-Stack-eCommerce-App.git
-```
-
-After getting the starter files, you must to go both file directories and run
-
-```
-npm install
-```
-
-You must assign environment variables for both and start the dev server
-
+To start the application, run:
 ```
 npm start
 ```
+
+The application will be available at `http://localhost:3000`.
+
+## Folder Structure
+
+```
+my-node-ts-app
+├── src
+│   ├── app.ts              # Entry point of the application
+│   ├── controllers         # Contains route controllers
+│   ├── routes              # Defines application routes
+│   ├── services            # Contains business logic
+│   ├── models              # Represents data structures
+│   └── types               # Defines request and response types
+├── tests                   # Contains unit tests
+├── package.json            # NPM configuration
+├── tsconfig.json           # TypeScript configuration
+├── .eslintrc.json          # ESLint configuration
+└── .prettierrc             # Prettier configuration
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
